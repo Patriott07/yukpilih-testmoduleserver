@@ -116,7 +116,7 @@ class PollController extends Controller
     }
 
     public function getPollById($id){
-        //get spesifik poll
+        //get spesifik poll dari database
     }
 
     public function vote(Request $request,$poll_id, $choice_id){
